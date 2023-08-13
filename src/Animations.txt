@@ -1,0 +1,17 @@
+This is React add-on used for creating basic CSS transitions and animations. We will install it from the command prompt window −
+
+\reactApp>npm install react-addons-css-transition-group
+
+Animation is an exciting feature of modern web application. It gives a refreshing feel to the application. React community provides many excellent react based animation library like React Motion, React Reveal, react-animations, etc., React itself provides an animation library, React Transition Group as an add-on option earlier. It is an independent library enhancing the earlier version of the library. Let us learn React Transition Group animation library in this chapter.
+
+React Transition Group
+React Transition Group library is a simple implementation of animation. It does not do any animation out of the box. Instead, it exposes the core animation related information. Every animation is basically transition of an element from one state to another. The library exposes minimum possible state of every element and they are given below −
+
+Entering
+Entered
+Exiting
+Exited
+The library provides options to set CSS style for each state and animate the element based on the style when the element moves from one state to another. The library provides in props to set the current state of the element. If in props value is true, then it means the element is moving from entering state to exiting state. If in props value is false, then it means the element is moving from exiting to exited.
+
+Transition
+Transition is the basic component provided by the React Transition Group to animate an element. Let us create a simple application and try to fade in / fade out an element using Transition element.

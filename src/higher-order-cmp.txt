@@ -1,0 +1,25 @@
+why we need higher order components?
+
+
+in our both counter functionalities we could reuse the counter functionalities but we instead duplicated it, which is not right way of react components.
+
+so if 10 or more components need to use this functionalities. then we have to duplicate it
+
+so immediate thought is to lift it up, but suppose the components are scattered, then its big issue, 
+
+here we use HOC
+
+why we need HOC : To share common functionalities between components
+
+what is HOC : is a pattern which takes a component and returns the other component.
+
+const NewComponent = HigherOrderComponent(OriginalComponent)
+
+enhanced component 
+
+
+
+--------------------------
+
+now we tried to pass the Props from the HOC to the other Components.
+

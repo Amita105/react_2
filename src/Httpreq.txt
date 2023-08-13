@@ -1,0 +1,13 @@
+
+When developing web applications - we routinelly access resources hosted on a server. Asking for, sending, or performing other operations on resources is accomplished through HTTP requests. These requests are sent from the client to a host on a server. When making HTTP request, the client employs a URL (Uniform Resource Locator) and a payload that contains the necessary information to access the server resources.
+
+The five commonplace HTTP request methods are GET, PUT, POST, PATCH, and DELETE.
+
+
+What is GET Request?
+GET is an HTTP request method that is used to obtain resources from servers.
+
+Axios and the Fetch API are the two main methods for making HTTP requests.
+
+The Fetch API is a built-in promise-based JavaScript module for retrieving resources from a server or an API endpoint.
+Axios is a promise-based HTTP client library that makes it simple to send asynchronous HTTP requests to REST endpoints. This is an external library that must be installed.
